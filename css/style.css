@@ -1,0 +1,44 @@
+
+.header {
+  padding: 10px 16px;
+  background: #000;
+  color: #f1f1f1;
+}
+
+.header2 {
+  padding: 10px 16px;
+  background: #AAA;
+  color: #f1f1f1;
+}
+
+.gray {
+  color: #707070;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+body {
+	font-family: Segoe-ui, Arial, Helvetica, sans-serif;
+	min-width: 960px;
+	margin: 0;
+}
+
+.mn {
+ color: #f1f1f1;
+}
